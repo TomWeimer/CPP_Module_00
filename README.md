@@ -1,6 +1,5 @@
 # CPP_Module_00
 42 School - C++ introduction part 00
-The functions bellow are reproductions of others library functions:
 
 | All modules  	          | Notions           |
 |:------------------------|:------------------|
