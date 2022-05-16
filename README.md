@@ -1,5 +1,11 @@
-# CPP_Module_00
-42 School - C++ introduction part 00
+# Piscine CPP - Module 00
+
+## Description
+First module of the piscine CPP, which contains exercises to learn the C++ language.</br></br>This module is focused on the basics of C++ such as the syntax, and the classes. <ul>There are also two exercises to practice the theory:<li>[ex00][10]</li> <li>[ex01][11]</li></ul>
+
+Working on this project, you will learn the basics of a C library.
+Among the functions of the libft, we find some of the most used in C, such as strlen, strcopy, calloc...<br>
+Click [here](https://github.com/TomWeimer/Libft/blob/main/fr.subject.pdf) to see the complete subject of this project. 
 
 | All modules  	          | Notions           |
 |:------------------------|:------------------|
@@ -22,3 +28,5 @@
 [7]: https://github.com/TomWeimer/CPP_Module_06
 [8]: https://github.com/TomWeimer/CPP_Module_07
 [9]: https://github.com/TomWeimer/CPP_Module_08
+[10]: https://github.com/TomWeimer/CPP_Module_00/tree/main/ex00
+[10]: https://github.com/TomWeimer/CPP_Module_00/tree/main/ex01
