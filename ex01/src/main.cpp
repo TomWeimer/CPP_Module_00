@@ -1,64 +1,26 @@
-#include "main.hpp"
+// Copyright 2022 Tom Weimer
 
-int main(void)
-{
-	PhoneBook	phoneBook;
+#include "class/Contact.hpp"
+#include "class/PhoneBook.hpp"
 
-	PhoneBookLoop(phoneBook);
-	clearAll(phoneBook.record);
-}
+int main() {
+    PhoneBook      phoneBook;
+    std::string    input;
+    bool           end;
 
-void PhoneBookLoop(PhoneBook phoneBook)
-{
-	int	action;
-
-	do
-	{
-		action = getAction();
-		if (action != EXIT)
-			manageAction(action, phoneBook);
-	}
-	while (action != EXIT);
-}
-
-int getAction(void)
-{
-	string buffer;
-
-	print(MSG_WAITING);
-	cin >> buffer ;
-	if (buffer.compare("ADD") == 0)
-		return (ADD);
-	else if (buffer.compare("SEARCH") == 0)
-		return (SEARCH);
-	else if (buffer.compare("EXIT") == 0)
-		return (EXIT);
-	return (NONE);
-	
-}
-
-void manageAction(int action, PhoneBook phonebook)
-{
-	if (action == ADD)
-		phonebook.ft_add(phonebook.record);
-	else if (action == SEARCH)
-		phonebook.ft_search(phonebook.record);
-	else if (action == NONE)
-		print(MSG_NONE);
-}
-
-void clearAll(Queue	*record)
-{
-	QNode *actual;
-	QNode *to_delete;
-
-	actual = (*record).front;
-	while (actual != NULL)
-	{
-		to_delete = actual;
-		actual = actual->next;
-		delete(to_delete->item);
-		delete(to_delete);
-	}
-	delete(record);
+    end = false;
+    while (end == false) {
+        std::cout << "Enter a command:";
+        getline(std::cin, input);
+        if (input.compare("ADD") == 0)
+            phoneBook.add();
+        else if (input.compare("SEARCH") == 0)
+            phoneBook.search();
+        else if (input.compare("EXIT") == 0)
+           end = true;
+        else
+           std::cout <<"No command found: \"" << input <<"\""<< std::endl;
+    }
+    phoneBook.exit();
+    return (0);
 }
