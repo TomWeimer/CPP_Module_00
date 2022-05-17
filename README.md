@@ -1,8 +1,24 @@
-# Piscine CPP - Module 00
+# ECOLE 42 - Piscine CPP - Module 00
+This project is
 [![cpplint](https://img.shields.io/github/workflow/status/cpp-linter/cpp-linter-action/cpp-linter?label=cpp-linter&logo=Github&style=plastic)](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml)
+- Introduction
+  - Ecole 42 (School 42)
+  - Piscine C++
+- Project
+  - description
+  - concepts
+  - exercises
+- Conclusion
+
+## Introduction
+### Ecole 42
+### Piscine C++
+
 ## Description
 First module of the piscine CPP, which contains exercises to learn the C++ language.</br></br>This module is focused on the basics of C++ such as the syntax, and the classes.</br>There are also two exercises to practice the theory:<ul><li>[ex00][10] A very simple exercise to get started in c++</li> <li>[ex01][11] A little program that act as phonebook, in wich we can registered contacts.</li></ul>
 To see the full subject of the module click [here][12].
+## Theory
+## Exercises
 ## Piscine CPP
 
 | All modules  	          | Notions           |
