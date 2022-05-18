@@ -6,7 +6,7 @@
   >
 </p>
 
-# Piscine C++ 
+# Piscine C++ <span allign ="right">[![cpplint](https://img.shields.io/github/workflow/status/cpp-linter/cpp-linter-action/cpp-linter?label=cpp-linter&logo=Github&style=plastic)](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml)</span>
 > **C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off"** - *Bjarne Stroustrup. Créateur de C++.*
 ## Introduction
 The piscine C++ is a serie of project made by the [school 42](https://42.fr/en/homepage/) whose purpose is to learn the language C++. As the citation above suggested it, this tutorial is made to be done after learning the programming language C.
@@ -20,15 +20,6 @@ In the piscine you will face both theory and exercise, the theory is written by 
     src="https://media0.giphy.com/media/l0CRB5dYBKwlkDC48/giphy.gif?cid=ecf05e47175d7eef6e38fbcb117eb1ea4cb9b62a86b2cdcb&rid=giphy.gif&ct=g"
   >
 </p>
-
-### Module00 - The basics 1/2
-#### What's in it ?
-- namespace
-- stdio stream (cout, cin)
-- 
-
-
-## Conclusion
 
 
 | All modules  	          | Notions           |
@@ -44,7 +35,6 @@ In the piscine you will face both theory and exercise, the theory is written by 
 |	[module08][9]		        |  STL                 |
 
 
-[![cpplint](https://img.shields.io/github/workflow/status/cpp-linter/cpp-linter-action/cpp-linter?label=cpp-linter&logo=Github&style=plastic)](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml)
 
 [1]: https://github.com/TomWeimer/CPP_Module_00
 [2]: https://github.com/TomWeimer/CPP_Module_01
