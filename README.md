@@ -6,34 +6,35 @@
   >
 </p>
 
-# Piscine CPP 
--------------------------------------
-## Table of Content
-- [Introduction](#introduction)
-  - [Ecole 42](#ecole-42) 
-  - [Piscine C++](#piscine-cpp)
-- [Project](#project)
-  - [description](#description)
-  - [concepts](#theory)
-  - [exercises](#exercises)
-- [Conclusion](#conclusion)
-
+# Piscine C++ 
+> **C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off"** - *Bjarne Stroustrup. Créateur de C++.*
 ## Introduction
-This project is the first module of a serie called Piscine CPP, a C++ tutorial.
-### Piscine CPP
-### Ecole 42
-## Project
-### Description
-First module of the piscine CPP, which contains exercises to learn the C++ language.</br></br>This module is focused on the basics of C++ such as the syntax, and the classes.</br>There are also two exercises to practice the theory:<ul><li>[ex00][10] A very simple exercise to get started in c++</li> <li>[ex01][11] A little program that act as phonebook, in wich we can registered contacts.</li></ul>
-To see the full subject of the module click [here][12].
-### Theory
-### Exercises
-### Piscine CPP
+The piscine C++ is a serie of project made by the [school 42](https://42.fr/en/homepage/) whose purpose is to learn the language C++. As the citation above suggested it, this tutorial is made to be done after learning the programming language C.
+## What's in the piscine ?
+In the piscine you will face both theory and exercise, the theory is written by [me](https://github.com/TomWeimer) and the exercise are the ones from the school 42. Below are all the modules of this tutorial, with their corresponding notions. The duration of each module is ~7 hours.
+
+<p align="left">
+  <img align ="right"
+    width="425"
+    height="370"
+    src="https://media0.giphy.com/media/l0CRB5dYBKwlkDC48/giphy.gif?cid=ecf05e47175d7eef6e38fbcb117eb1ea4cb9b62a86b2cdcb&rid=giphy.gif&ct=g"
+  >
+</p>
+
+### Module00 - The basics 1/2
+#### What's in it ?
+- namespace
+- stdio stream (cout, cin)
+- 
+
+
+## Conclusion
+
 
 | All modules  	          | Notions           |
 |:------------------------|:------------------|
 | [module00][1]	          | CPP basics (class, syntax, ...)         |
-|	[module01][2]           |	new and delete, references, filestream                  |	
+|	[module01][2]           |	CPP basics (memory allocation, references, filestream)                 |	
 | [module02][3]  		      | Ad-hoc polymorphism, operator overload, canonical form                  | 
 |	[module03][4]		        | Inheritance                  |
 |	[module04][5]		        | Sub-typing polymorphism, abstract classes and interfaces                  |
@@ -43,7 +44,6 @@ To see the full subject of the module click [here][12].
 |	[module08][9]		        |  STL                 |
 
 
-## Conclusion
 [![cpplint](https://img.shields.io/github/workflow/status/cpp-linter/cpp-linter-action/cpp-linter?label=cpp-linter&logo=Github&style=plastic)](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml)
 
 [1]: https://github.com/TomWeimer/CPP_Module_00
