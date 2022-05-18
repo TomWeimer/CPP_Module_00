@@ -1,25 +1,33 @@
-# ECOLE 42 - Piscine CPP - Module 00
-This project is
-[![cpplint](https://img.shields.io/github/workflow/status/cpp-linter/cpp-linter-action/cpp-linter?label=cpp-linter&logo=Github&style=plastic)](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml)
-- Introduction
-  - Ecole 42 (School 42)
-  - Piscine C++
-- Project
-  - description
-  - concepts
-  - exercises
-- Conclusion
+<p align="center">
+  <img align ="center"
+    height="300"
+    src="https://www.42lausanne.ch/wp-content/uploads/2021/01/42_logo.svg"
+  >
+</p>
+
+# Piscine CPP 
+-------------------------------------
+## Table of Content
+- [Introduction](#introduction)
+  - [Ecole 42](#ecole-42) 
+  - [Piscine C++](#piscine-cpp)
+- [Project](#project)
+  - [description](#description)
+  - [concepts](#theory)
+  - [exercises](#exercises)
+- [Conclusion](#conclusion)
 
 ## Introduction
+This project is the first module of a serie called Piscine CPP, a C++ tutorial.
+### Piscine CPP
 ### Ecole 42
-### Piscine C++
-
-## Description
+## Project
+### Description
 First module of the piscine CPP, which contains exercises to learn the C++ language.</br></br>This module is focused on the basics of C++ such as the syntax, and the classes.</br>There are also two exercises to practice the theory:<ul><li>[ex00][10] A very simple exercise to get started in c++</li> <li>[ex01][11] A little program that act as phonebook, in wich we can registered contacts.</li></ul>
 To see the full subject of the module click [here][12].
-## Theory
-## Exercises
-## Piscine CPP
+### Theory
+### Exercises
+### Piscine CPP
 
 | All modules  	          | Notions           |
 |:------------------------|:------------------|
@@ -32,6 +40,10 @@ To see the full subject of the module click [here][12].
 |	[module06][7]		        |  Casts (static, dynamic, reinterpret, const)                 |
 |	[module07][8]		        |  Templates (default type, specialization)              |
 |	[module08][9]		        |  STL                 |
+
+
+## Conclusion
+[![cpplint](https://img.shields.io/github/workflow/status/cpp-linter/cpp-linter-action/cpp-linter?label=cpp-linter&logo=Github&style=plastic)](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml)
 
 [1]: https://github.com/TomWeimer/CPP_Module_00
 [2]: https://github.com/TomWeimer/CPP_Module_01
