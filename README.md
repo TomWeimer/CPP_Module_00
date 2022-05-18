@@ -1,6 +1,7 @@
 <p align="center">
   <img align ="center"
     height="300"
+    width="450"
     src="https://www.42lausanne.ch/wp-content/uploads/2021/01/42_logo.svg"
   >
 </p>
