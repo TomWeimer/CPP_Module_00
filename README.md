@@ -13,13 +13,6 @@ The piscine C++ is a serie of project made by the [school 42](https://42.fr/en/h
 ## What's in the piscine ?
 In the piscine you will face both theory and exercise, the theory is written by [me](https://github.com/TomWeimer) and the exercise are the ones from the school 42. Below are all the modules of this tutorial, with their corresponding notions. The duration of each module is ~7 hours.
 
-<p align="left">
-  <img align ="right"
-    width="425"
-    height="370"
-    src="https://media0.giphy.com/media/l0CRB5dYBKwlkDC48/giphy.gif?cid=ecf05e47175d7eef6e38fbcb117eb1ea4cb9b62a86b2cdcb&rid=giphy.gif&ct=g"
-  >
-</p>
 
 
 | All modules  	          | Notions           |
