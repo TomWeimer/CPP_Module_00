@@ -1,13 +1,13 @@
 <p align="center">
   <img align ="right"
     height="250"
-    width="250"
+    width="240"
     src="https://www.42lausanne.ch/wp-content/uploads/2021/01/42_logo.svg"
   >
 </p>
 
 # Piscine C++ - Module 00 <span allign ="right">[![cpplint](https://img.shields.io/github/workflow/status/cpp-linter/cpp-linter-action/cpp-linter?label=cpp-linter&logo=Github&style=plastic)](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml)</span>
-> **“If you think it's simple, then you have misunderstood the problem.”** - *Bjarne Stroustrup. Creator of C++.*
+> **“If you think it's simple, then you have misunderstood the problem.”** - *Bjarne Stroustrup, creator of C++.*
 ## Theory of the module
 To see more about one subject please click on the link:
 - [namespaces][1] - How to preventing name conflicts in large projects. 
