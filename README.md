@@ -10,7 +10,7 @@
 > **“If you think it's simple, then you have misunderstood the problem.”** - *Bjarne Stroustrup. Créateur de C++.*
 ## Theory of the module
 To see more about one subject please click on the link:
-- namespaces - How to preventing name conflicts in large projects. 
+- [namespaces][1] - How to preventing name conflicts in large projects. 
 - stdio streams - Presentation of what is a stdio stream and how to use cin and cout.
 - class & instance - A new concept of C++, an improvement of the structure in C.
 - visibility - Classes also have their own private and public life.
@@ -29,7 +29,7 @@ To see more about one subject please click on the link:
 - exercise 1
 - exercise 2
 
-[1]: https://github.com/TomWeimer/CPP_Module_00
+[1]: https://github.com/TomWeimer/CPP_Module_00](https://github.com/TomWeimer/CPP_Module_00/wiki/namespaces
 [2]: https://github.com/TomWeimer/CPP_Module_01
 [3]: https://github.com/TomWeimer/CPP_Module_02
 [4]: https://github.com/TomWeimer/CPP_Module_03
