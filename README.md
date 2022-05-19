@@ -8,9 +8,7 @@
 
 # Piscine C++ - Module 00 <span allign ="right">[![cpplint](https://img.shields.io/github/workflow/status/cpp-linter/cpp-linter-action/cpp-linter?label=cpp-linter&logo=Github&style=plastic)](https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml)</span>
 > **“If you think it's simple, then you have misunderstood the problem.”** - *Bjarne Stroustrup. Créateur de C++.*
-## Introduction
-
-## New theory
+## Theory of the module
 To see more about one subject please click on the link:
 - namespaces - How to preventing name conflicts in large projects. 
 - stdio streams - Presentation of what is a stdio stream and how to use cin and cout.
@@ -27,7 +25,9 @@ To see more about one subject please click on the link:
 - C++ string - You won't use char * anymore, std::strings are the best.
 - difference between std::cin and getline - std::cin is a little bit picky.
 - static attributes & functions within a class - a shared variable between same classes.
-
+# Exercise
+- exercise 1
+- exercise 2
 
 [1]: https://github.com/TomWeimer/CPP_Module_00
 [2]: https://github.com/TomWeimer/CPP_Module_01
