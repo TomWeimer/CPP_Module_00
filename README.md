@@ -29,7 +29,7 @@ To see more about one subject please click on the link:
 - exercise 1
 - exercise 2
 
-[1]: https://github.com/TomWeimer/CPP_Module_00](https://github.com/TomWeimer/CPP_Module_00/wiki/namespaces
+[1]: https://github.com/TomWeimer/CPP_Module_00/wiki/namespaces
 [2]: https://github.com/TomWeimer/CPP_Module_01
 [3]: https://github.com/TomWeimer/CPP_Module_02
 [4]: https://github.com/TomWeimer/CPP_Module_03
