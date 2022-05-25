@@ -11,7 +11,7 @@
 ## Theory of the module
 To see more about one subject please click on the link:
 - [namespaces][1] - How to preventing name conflicts in large projects. 
-- stdio streams - Presentation of what is a stdio stream and how to use cin and cout.
+- [stdio streams][2] - Presentation of what is a stdio stream and how to use cin and cout.
 - class & instance - A new concept of C++, an improvement of the structure in C.
 - visibility - Classes also have their own private and public life.
 - member attributes & functions - Variables or functions inside a class.
@@ -30,7 +30,7 @@ To see more about one subject please click on the link:
 - exercise 2
 
 [1]: https://github.com/TomWeimer/CPP_Module_00/wiki/namespaces
-[2]: https://github.com/TomWeimer/CPP_Module_01
+[2]: https://github.com/TomWeimer/CPP_Module_00/wiki/stdio-streams
 [3]: https://github.com/TomWeimer/CPP_Module_02
 [4]: https://github.com/TomWeimer/CPP_Module_03
 [5]: https://github.com/TomWeimer/CPP_Module_04
