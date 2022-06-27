@@ -1,6 +1,7 @@
 // Copyright 2022 Tom Weimer
 
 #include <iostream>
+#include <cstring>
 
 // print string
 void    print(const char *message) {

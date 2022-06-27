@@ -21,7 +21,7 @@ std::string shrinkInfo(std::string info) {
 
     copy = info;
     copy.resize(MAX_WIDTH - 1);
-    copy.shrink_to_fit();
+    //copy.shrink_to_fit();
     copy.insert(copy.length(), 1, '.');
     return (copy);
 }
@@ -52,14 +52,27 @@ int selectIndex(int nb_contact) {
     returnIndex = 0;
     std::cout << "Select the index of the desired contact: ";
     while (end == false) {
-        returnIndex = std::cin.get() - '0';
-        if ((returnIndex >= 0 && returnIndex <= 8) && returnIndex <= nb_contact)
-        end = true;
-        if (end == false) {
-        std::cout << MSG_CONTACT_INDEX << std::endl;
-        std::cin.clear();
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        }
+		returnIndex = 0;
+       	std::cin >> returnIndex;
+		if (std::cin.fail())
+		{
+			std::cout << MSG_CONTACT_INDEX << std::endl;
+			std::cout << "Select the index of the desired contact: ";
+			std::cin.clear();
+			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+			returnIndex = -1;
+		}
+		else
+		{
+        	if ((returnIndex >= 1 && returnIndex <= 8) && returnIndex <= nb_contact)
+        		end = true;
+        	if (end == false) {
+        		std::cout << MSG_CONTACT_INDEX << std::endl;
+				std::cout << "Select the index of the desired contact: ";
+        		std::cin.clear();
+        		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        	}
+		}
     }
     return (returnIndex);
 }
