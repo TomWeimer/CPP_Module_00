@@ -36,23 +36,32 @@ Contact& Contact::operator=(const Contact& origin) {
 }
 
 // Check if the str is contain only space or tab
-bool isEmpty(std::string const &str) {
-    if (str.find_first_not_of(' ') != std::string::npos) {
-        if (str.find_first_not_of('\t') != std::string::npos)
+bool isEmpty(std::string  const &str) {
+	if (str.empty() == true)
+		return (true);
+    if (str.find_first_not_of(' ') != std::string ::npos) {
+        if (str.find_first_not_of('\t') != std::string ::npos)
             return (false);
     }
     return (true);
 }
 
 // Get str from the user
-std::string getStr(const char *message) {
+std::string  getStr(const char *message) {
     std::string str;
 
     str = "";
     if (message != NULL)
         std::cout << message;
-    while (isEmpty(str)) {
+    while (isEmpty(str) ) {
+
         getline(std::cin, str);
+		if (std::cin.eof() == true)
+		{
+			std::cout << "\nexit" << std::endl;
+			std::exit(EXIT_FAILURE);
+		}
+		
     }
     return (str);
 }
@@ -76,7 +85,7 @@ Contact::~Contact() {
 // << operator
 std::ostream    &operator<<(std::ostream &out, Contact const &contact) {
     out << "first name: "<< contact.get_firstName() << std::endl;
-    out << "last name: " << contact.get_lastName() << std:: endl;
+    out << "last name: " << contact.get_lastName() << std::endl;
     out << "nick name: " << contact.get_nickName() << std::endl;
     out << "phone number: " << contact.get_phoneNumber() << std::endl;
     out << "darkest secret: " << contact.get_secret() << std::endl;

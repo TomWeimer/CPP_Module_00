@@ -5,13 +5,18 @@
 
 int main() {
     PhoneBook      phoneBook;
-    std::string    input;
+    std::string   input;
     bool           end;
 
     end = false;
     while (end == false) {
         std::cout << "Enter a command:";
         getline(std::cin, input);
+		if (std::cin.eof() == true)
+		{
+			std::cout << "\nexit" << std::endl;
+			std::exit(EXIT_FAILURE);
+		}
         if (input.compare("ADD") == 0)
             phoneBook.add();
         else if (input.compare("SEARCH") == 0)
